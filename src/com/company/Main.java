@@ -1,10 +1,16 @@
 package com.company;
 
+import java.util.ArrayList;
 public class Main {
-
     public static void main(String[] args) {
-        int resultado = 0;
-        resultado = suma(a:4, b:5);
+        suma(15, 25);
+    }
+    public static void suma(int a, int b) {
+        int resultado;
+        resultado = a + b;
+
         System.out.println(resultado);
+
     }
 }
+
