@@ -1,13 +1,16 @@
 package com.company;
 public class Main {
-    public static void main(String[] args) {
-        suma(15, 25);
-    }
-    public static void suma(int a, int b) {
-        int resultado;
-        resultado = a + b;
+    public static void main(String[] args)
+    {
+        int param1 = 25;
+        int param2 = 45;
 
-        System.out.println(resultado);
+        var valor = suma(param1, param2);
+
+       System.out.println(valor);
+    }
+   public static int suma(int a, int b) {
+        return a + b;
 
     }
 }
